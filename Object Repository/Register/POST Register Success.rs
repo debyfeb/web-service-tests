@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST a new user</name>
+   <name>POST Register Success</name>
    <tag></tag>
    <elementGuidId>bf95ec44-8f74-4b67-854c-83a7e77af5f2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>false</autoUpdateContent>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;age\&quot;: ${age},\n  \&quot;avatar\&quot;: null,\n  \&quot;gender\&quot;:\&quot;${gender}\&quot;,\n  \&quot;password\&quot;: \&quot;${password}\&quot;,\n  \&quot;username\&quot;: \&quot;${username}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;,\n    \&quot;password\&quot;: \&quot;pistol\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -20,15 +23,29 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>0c9aea43-ccf6-46cb-8547-c25802b96905</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x-api-key</name>
+      <type>Main</type>
+      <value>reqres-free-v1</value>
+      <webElementGuid>cc7ea85c-c625-4e24-9c0b-94f28cc564bc</webElementGuid>
+   </httpHeaderProperties>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/api/users/json</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}/api/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>0</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>18</defaultValue>
       <description></description>

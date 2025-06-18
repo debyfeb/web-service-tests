@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-004-Put Update User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d46b5be-8ba4-4765-b4df-370cf8dfa323</testCaseGuid>
+</TestCaseEntity>

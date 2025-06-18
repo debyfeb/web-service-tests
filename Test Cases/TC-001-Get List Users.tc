@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-001-Get List Users</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75dbd613-7e05-4ec0-a38d-4b8e7e046305</testCaseGuid>
+</TestCaseEntity>
